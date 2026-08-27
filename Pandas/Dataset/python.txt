@@ -1,0 +1,20 @@
+In Python, writing clean code requires mastering key syntax: def main(): serves as your starting point. Imagine building an app where user_count = 42 and is_active = True. If user_count >= 10 and not is_active:, the system flags a warning! Data flows through structures like lists [1, 2, 3], tuples (10, 20), and dictionaries {"status": 200, "role": "admin"}.
+ 
+ When processing data, operators do the heavy lifting: perform addition x + y, exponentiation 2 ** 8, modulo 100 % 3, or floor division 17 // 4. Bitwise operations like flags & 0b101 or mask | 0x0F manipulate binary levels directly. String formatting is clean using f-strings: f"User ID: {user_id:04d} -> Path: /api/v1/users/{user_id}".
+ 
+ Functions often rely on decorators @classmethod or @property, while type hints data: dict[str, Any] -> None: enforce clarity. Exception handling uses structured blocks:
+ 
+ Python
+ try:
+ result = values[index] / divisor
+ except (ZeroDivisionError, IndexError) as err:
+ logger.error(f"Failed: {err}")
+ finally:
+ db_conn.close()
+ Lambda functions like square = lambda x: x ** 2 keep short operations inline. Remember: consistent indentation (4 spaces), double quotes "text", single quotes 'c', backslashes \n, pipe operators a | b, and walrus operators if (n := len(items)) > 0: complete your Pythonic toolkit!
+ 
+ Typing Practice Highlights:
+ 
+ Symbols & Operators: (), [], {}, :, ,, ., =, ==, !=, >=, +, -, *, **, /, //, %, &, |, ->, @, :=
+ 
+ Keywords & Constructs: def, if, not, and, try, except, finally, lambda, as, True
